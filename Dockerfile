@@ -11,6 +11,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Копіюємо весь проект до контейнера
 COPY . /code
 
-CMD ["uvicorn", "pymasters.main:app", "--host", "0.0.0.0", "--port", "8000", "--reload", "python", "app.py", "app.main:app"]
+CMD ["uvicorn", "pymasters.main:app", "--host", "0.0.0.0", "--port", "8000", "--reload", "python"]
  
    
