@@ -4,7 +4,7 @@ import os
 from dotenv import load_dotenv
 
 # Import the database URL from settings
-from settings import SQLALCHEMY_DATABASE_URL
+from pymasters.settings import SQLALCHEMY_DATABASE_URL
 
 # Load environment variables from .env file
 load_dotenv()
