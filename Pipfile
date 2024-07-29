@@ -18,6 +18,7 @@ fastapi-mail = "==1.4.1"
 slowapi = "*"
 cloudinary = "*"
 sphinx = "*"
+qrcode = "*"
 
 [dev-packages]
 sphinx = "*"
